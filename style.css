@@ -89,10 +89,14 @@ a.volver:hover {
 section {
   background: white;
   padding: 28px;
-  border-radius: 14px;
+  border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
   max-width: 900px;
-  margin: 0 auto;
+  margin: 30px auto 40px auto;
+  text-align: left;
+    hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 /* ============================
@@ -132,6 +136,7 @@ section {
   color: #333;
   font-weight: 600;
   transition: background 0.2s ease;
+  text-align: center; 
 }
 
 .btn-volver:hover {
@@ -146,8 +151,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    padding: 2rem 0;
-  }
+    align-items: stretch;   /* ← hace que todas las columnas tengan la misma altura */  }
 
   .card {
     display: block;
@@ -172,6 +176,7 @@ section {
   text-decoration: none;
   color: #333;
   text-align: center;
+  
 
   /* Fondo con imagen opcional */
   background-size: cover;
@@ -571,15 +576,17 @@ body, .pagina-interna {
 
 @media (max-width: 768px) {
   body {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   h1 {
     font-size: 2rem;
   }
 
-  p {
-    font-size: 1.15rem;
+  p 
+  ul,
+  li {
+    font-size: 1.1rem;
   }
 
   .titulo-linea {
@@ -599,3 +606,128 @@ body, .pagina-interna {
   opacity: 0.9;
 }
 
+.h2-recuadro {
+  text-align: center;
+  padding: 16px 30px;
+  display: block;
+  margin: 10px auto 10px auto;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-size: clamp(1.2rem, 4vw, 1.8rem);
+  text-align-last: center;
+}
+
+.img-grande {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+  margin: 20px auto;
+  font-size: inherit;
+}
+
+li {
+  font-size: inherit;
+}
+.una-columna .cards-grid {
+  grid-template-columns: 1fr;
+}
+
+  .card-patologia {
+  display: block;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  
+
+  /* Fondo con imagen opcional */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Sombra y transición */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover */
+.card-patologia:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+/* ============================
+   TARJETAS COSMÉTICOS (12)
+   ============================ */
+
+.card-patologia:nth-child(1) {
+    background:
+        linear-gradient(rgba(253, 226, 228, 0.5), rgba(253, 226, 228, 0.5)),
+        url("imagenes/limpiador-facia.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-patologia:nth-child(2) {
+    background:
+        linear-gradient(rgba(255, 241, 230, 0.5), rgba(255, 241, 230, 0.5)),
+        url("imagenes/contorno-ojo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-patologia:nth-child(3) {
+    background:
+        linear-gradient(rgba(253, 247, 195, 0.5), rgba(253, 247, 195, 0.5)),
+        url("imagenes/locione.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-patologia:nth-child(4) {
+    background:
+        linear-gradient(rgba(226, 247, 225, 0.5), rgba(226, 247, 225, 0.5)),
+        url("imagenes/antioxidante.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-patologia:nth-child(5) {
+    background:
+        linear-gradient(rgba(227, 242, 253, 0.5), rgba(227, 242, 253, 0.5)),
+        url("imagenes/reparadore.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-patologia:nth-child(6) {
+    background:
+        linear-gradient(rgba(237, 231, 246, 0.5), rgba(237, 231, 246, 0.5)),
+        url("imagenes/proteccion-sola.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-patologia:nth-child(7) {
+    background:
+        linear-gradient(rgba(223, 247, 246, 0.5), rgba(223, 247, 246, 0.5)),
+        url("imagenes/bronceadore.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-patologia:nth-child(8) {
+    background:
+        linear-gradient(rgba(255, 229, 217, 0.5), rgba(255, 229, 217, 0.5)),
+        url("imagenes/despigmentante.jpg");
+    background-size: cover;
+    background-position: center;
+}
