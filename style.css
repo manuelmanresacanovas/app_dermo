@@ -710,7 +710,7 @@ li {
 .card-patologia:nth-child(7) {
     background:
     linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
-        url("imagenes/patologias/dermatitis-seborreica2.webp -\ Editada.jpg");
+        url("imagenes/patologias/dermatitis-seborreica2.webp");
     background-size: cover;
     background-position: center;
 }
