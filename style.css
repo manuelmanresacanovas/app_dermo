@@ -200,7 +200,7 @@ section {
 
 .card-cosmetico:nth-child(1) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/limpiador-facial.webp");
     background-size: cover;
     background-position: center;
@@ -208,7 +208,7 @@ section {
 
 .card-cosmetico:nth-child(2) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/contorno-ojos.webp");
     background-size: cover;
     background-position: center;
@@ -216,7 +216,7 @@ section {
 
 .card-cosmetico:nth-child(3) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/lociones.webp");
     background-size: cover;
     background-position: center;
@@ -224,7 +224,7 @@ section {
 
 .card-cosmetico:nth-child(4) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/antioxidantes.webp");
     background-size: cover;
     background-position: center;
@@ -232,7 +232,7 @@ section {
 
 .card-cosmetico:nth-child(5) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/reparadores.webp");
     background-size: cover;
     background-position: center;
@@ -240,7 +240,7 @@ section {
 
 .card-cosmetico:nth-child(6) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/proteccion-solar.webp");
     background-size: cover;
     background-position: center;
@@ -248,7 +248,7 @@ section {
 
 .card-cosmetico:nth-child(7) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/bronceadores.webp");
     background-size: cover;
     background-position: center;
@@ -256,7 +256,7 @@ section {
 
 .card-cosmetico:nth-child(8) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/despigmentantes.webp");
     background-size: cover;
     background-position: center;
@@ -264,7 +264,7 @@ section {
 
 .card-cosmetico:nth-child(9) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/retinoides.webp");
     background-size: cover;
     background-position: center;
@@ -272,7 +272,7 @@ section {
 
 .card-cosmetico:nth-child(10) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/hidroxiacidos.webp");
     background-size: cover;
     background-position: center;
@@ -280,7 +280,7 @@ section {
 
 .card-cosmetico:nth-child(11) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/peptidos.webp");
     background-size: cover;
     background-position: center;
@@ -288,7 +288,7 @@ section {
 
 .card-cosmetico:nth-child(12) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
         url("imagenes/cosmeticos/rutina.webp");
     background-size: cover;
     background-position: center;
@@ -350,7 +350,7 @@ section {
 /* Tarjeta 1 — azul cielo pastel */
 .card-piel:nth-child(1) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/piel/estructura-piel.webp");
   background-size: cover;
   background-position: center;
@@ -359,7 +359,7 @@ section {
 /* Tarjeta 2 — coral suave pastel */
 .card-piel:nth-child(2) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/piel/funcion-barrera.webp");
   background-size: cover;
   background-position: center;
@@ -368,7 +368,7 @@ section {
 /* Tarjeta 3 — verde agua pastel */
 .card-piel:nth-child(3) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/piel/los-5-tipos-de-piel-copia.webp");
   background-size: cover;
   background-position: center;
@@ -377,7 +377,7 @@ section {
 /* Tarjeta 4 — lila claro pastel */
 .card-piel:nth-child(4) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/piel/polucion.webp");
   background-size: cover;
   background-position: center;
@@ -525,7 +525,7 @@ body, .pagina-interna {
 /* Tarjeta 1 — tono melocotón */
 .card-index:nth-child(1) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/index/la-piel-ppal.webp");
   background-size: cover;
   background-position: center;
@@ -534,7 +534,7 @@ body, .pagina-interna {
 /* Tarjeta 2 — tono lavanda */
 .card-index:nth-child(2) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/index/cosmeticos-ppal.webp");
   background-size: cover;
   background-position: center;
@@ -543,7 +543,7 @@ body, .pagina-interna {
 /* Tarjeta 3 — tono menta */
 .card-index:nth-child(3) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/index/patologias.webp");
   background-size: cover;
   background-position: center;
@@ -552,7 +552,7 @@ body, .pagina-interna {
 /* Tarjeta 4 — tono amarillo crema */
 .card-index:nth-child(4) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/index/rutina-dermo-ppal.webp");
   background-size: cover;
   background-position: center;
@@ -560,7 +560,7 @@ body, .pagina-interna {
 /* Tarjeta 4 — tono amarillo crema */
 .card-index:nth-child(5) {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
     url("imagenes/index/marcas.webp");
   background-size: cover;
   background-position: center;
@@ -670,64 +670,64 @@ li {
 
 .card-patologia:nth-child(1) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
-        url("imagenes/limpiador-facia.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+        url("imagenes/patologias/acne.webp");
     background-size: cover;
     background-position: center;
 }
 
 .card-patologia:nth-child(2) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
-        url("imagenes/contorno-ojo.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+        url("imagenes/patologias/dermatitis-atopica.webp");
     background-size: cover;
     background-position: center;
 }
 
 .card-patologia:nth-child(3) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
-        url("imagenes/locione.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+        url("imagenes/patologias/oncologia.webp");
     background-size: cover;
     background-position: center;
 }
 
 .card-patologia:nth-child(4) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
-        url("imagenes/antioxidante.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+        url("imagenes/patologias/pigmentacion.webp");
     background-size: cover;
     background-position: center;
 }
 
 .card-patologia:nth-child(5) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
-        url("imagenes/reparadore.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+        url("imagenes/patologias/envejecimiento.webp");
     background-size: cover;
     background-position: center;
 }
 
 .card-patologia:nth-child(6) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
-        url("imagenes/proteccion-sola.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+        url("imagenes/patologias/rosacea.webp");
     background-size: cover;
     background-position: center;
 }
 
 .card-patologia:nth-child(7) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
-        url("imagenes/bronceadore.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+        url("imagenes/patologias/dermatitis-seborreica.webp");
     background-size: cover;
     background-position: center;
 }
 
 .card-patologia:nth-child(8) {
     background:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)),
-        url("imagenes/despigmentante.jpg");
+    linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)),
+        url("imagenes/patologias/celulitis.webp");
     background-size: cover;
     background-position: center;
 }
