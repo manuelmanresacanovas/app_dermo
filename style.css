@@ -621,6 +621,8 @@ ul {
   display: inline-block;
   margin: 20px auto;
   font-size: inherit;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 li {
